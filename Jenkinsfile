@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('FETCH CODE') {
           steps {
-            git branch: 'docker', url: 'https://github.com/devopshydclub/vprofile-project.git'
+            git branch: 'docker', url: 'https://github.com/vignesh2310/rt-ci-jenkins-docker.git'
           }
         }
 
